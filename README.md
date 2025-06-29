@@ -17,24 +17,24 @@ This blog platform allows both readers and administrators to interact with blog 
 
 ## 📁 Project Structure
 
-root
-├── app/
-│ ├── page.jsx # Home page with all blogs
-│ ├── blogs/[id]/page.jsx # Dynamic blog detail page
-│ └── admin/
-│ └── blogList/page.jsx # Admin dashboard - list of blogs
-├── components/
-│ ├── Header.jsx # Includes subscription form
-│ ├── Footer.jsx # Page footer
-│ ├── BlogTableItem.jsx # Table rows for blogs in admin panel
-│ └── SubsTableItem.jsx # Table rows for subscribers in admin panel
-├── lib/
-│ ├── config/db.js # MongoDB connection
-│ └── models/
-│ ├── BlogModel.js # Blog schema
-│ └── EmailModel.js # Subscription schema
-├── public/ # Blog image uploads
-└── README.md
+    root
+    ├── app/
+    │ ├── page.jsx # Home page with all blogs
+    │ ├── blogs/[id]/page.jsx # Dynamic blog detail page
+    │ └── admin/
+    │ └── blogList/page.jsx # Admin dashboard - list of blogs
+    ├── components/
+    │ ├── Header.jsx # Includes subscription form
+    │ ├── Footer.jsx # Page footer
+    │ ├── BlogTableItem.jsx # Table rows for blogs in admin panel
+    │ └── SubsTableItem.jsx # Table rows for subscribers in admin panel
+    ├── lib/
+    │ ├── config/db.js # MongoDB connection
+    │ └── models/
+    │ ├── BlogModel.js # Blog schema
+    │ └── EmailModel.js # Subscription schema
+    ├── public/ # Blog image uploads
+    └── README.md
 
 
 
@@ -96,7 +96,7 @@ root
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/your-username/blog-platform.git
+git clone https://github.com/Abhishek-Singh5/full_stack_blog_platform.git
 cd blog-platform
 
 
