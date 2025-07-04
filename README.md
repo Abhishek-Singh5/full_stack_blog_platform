@@ -1,6 +1,6 @@
 # 📝 Full Stack Blog Platform
 
-A powerful and modern full-stack blog application built with **Next.js (App Router)** and **MongoDB**. It features dynamic blog creation, reading, deletion (CRUD), an admin dashboard, image uploads, and a subscription system.
+A powerful and modern full-stack blog application built with **Next.js (App Router)** and **MongoDB**. It features dynamic blog creation, reading, deletion (CRUD), an admin dashboard, content uploads, and a subscription system.
 
 **-> Engineered a scalable Full Stack Blog Platform using Next.js (App Router), MongoDB, and
      Tailwind CSS, ensuring 100% responsiveness and seamless UX across all devices.**
