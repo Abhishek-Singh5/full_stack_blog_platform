@@ -117,37 +117,15 @@ cd blog-platform
 
 
 2. Install Dependencies
-bash
-Copy
-Edit
 npm install
+
 3. Configure Environment
-Create .env.local:
-
-ini
-Copy
-Edit
+Create .env.local: init
 MONGODB_URI=your_mongodb_connection_string
+
 4. Start the App
-bash
-Copy
-Edit
 npm run dev
-📸 Screenshots to Add
-✅ Homepage
 
-✅ Blog Detail Page
-
-✅ Admin Panel
-
-✅ Add Blog Form
-
-✅ Subscriber List
-
-⚠️ Developer Notes
-Ensure the public/ folder is writable
-
-Always validate Image component src to avoid empty string warnings
 
 Use MongoDB Atlas or local MongoDB for database connection
 
